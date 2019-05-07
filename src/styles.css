@@ -3,7 +3,6 @@
 .pravatar {
     height: 50px;
     width: 50px;
-    background: #000;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -14,7 +13,7 @@
 
 .pravatar:before {
     content: attr(text);
-    color: #e7e7e7;
+    color: inherit;
     display: flex;
     justify-content: center;
     align-items: center;
