@@ -55,21 +55,21 @@ class Example extends Component {
 
 ### Avatar
 
-| Attribute   | Options   | Default   | Description                                                                 |
-| ----------- | --------- | --------- | --------------------------------------------------------------------------- |
-| `text`      | _string_  | `empty`   | Any String                                                                  |
-| `image`     | _string_  | `empty`   | Image avatar to use                                                         |
-| `textColor` | _string_  | `inherit` | set the color of text                                                       |
-| `size`      | _string_  | `cover`   | set the background image size                                               |
-| `position`  | _string_  | `center`  | set the background image position                                           |
-| `weight`    | _string_  | `normal`  | set the font weight                                                         |
-| `fontSize`  | _string_  | `inherit` | set the font size                                                           |
-| `border`    | _string_  | `none`    | set the border of the avatar                                                |
-| `radius`    | _string_  | `100px`   | set the border radius of the avatar                                         |
-| `height`    | _string_  | `50px`    | set the height of the avatar                                                |
-| `width`     | _string_  | `50px`    | set the width of the avatar                                                 |
-| `bg`        | _string_  | `inherit` | To set the background color of the avatar                                   |
-| `initial`   | _boolean_ | false     | Will be used to generate avatar based on the initials of the person or text |
+| Attribute   | Options   | Default   | Description                                                         |
+| ----------- | --------- | --------- | ------------------------------------------------------------------- |
+| `text`      | _string_  | `empty`   | Any String                                                          |
+| `image`     | _string_  | `empty`   | Image avatar to use                                                 |
+| `textColor` | _string_  | `inherit` | set the color of text                                               |
+| `size`      | _string_  | `cover`   | set the background image size                                       |
+| `position`  | _string_  | `center`  | set the background image position                                   |
+| `weight`    | _string_  | `normal`  | set the font weight                                                 |
+| `fontSize`  | _string_  | `inherit` | set the font size                                                   |
+| `border`    | _string_  | `none`    | set the border of the avatar                                        |
+| `radius`    | _string_  | `100px`   | set the border radius of the avatar                                 |
+| `height`    | _string_  | `50px`    | set the height of the avatar                                        |
+| `width`     | _string_  | `50px`    | set the width of the avatar                                         |
+| `bg`        | _string_  | `inherit` | To set the background color of the avatar                           |
+| `initial`   | _boolean_ | false     | Will be used to generate avatar based on the initials of the person |
 
 ## Contributing
 
