@@ -6,7 +6,7 @@ export default class App extends Component {
     return (
       <div>
         <Pravatar
-          text=""
+          text="Hello world some "
           image="https://avatars1.githubusercontent.com/u/17858766?s=88&v=4"
           width="100px"
           height="100px"
@@ -14,7 +14,7 @@ export default class App extends Component {
           fontSize="50px"
           bg="#e7e7e7"
           textColor="#000"
-          border="2px solid black"
+          initial="true"
         />
       </div>
     );

@@ -12,9 +12,17 @@ export default class ExampleComponent extends Component {
     radius: PropTypes.string,
     fontSize: PropTypes.string,
     textColor: PropTypes.string,
-    border: PropTypes.string
+    border: PropTypes.string,
+    size: PropTypes.string,
+    position: PropTypes.string,
+    weight: PropTypes.string,
+    initial: PropTypes.string
   }
-
+  getInitials = name => {
+    let initials = ''
+    name.split(' ').map(subName => (initials = initials + subName[0]))
+    return initials.toUpperCase()
+  }
   render() {
     const { text } = this.props
     const { bg } = this.props
@@ -25,11 +33,15 @@ export default class ExampleComponent extends Component {
     const { fontSize } = this.props
     const { textColor } = this.props
     const { border } = this.props
+    const { size } = this.props
+    const { position } = this.props
+    const { weight } = this.props
+    const { initial } = this.props
 
     return (
       <div
         className={styles.pravatar}
-        text={text}
+        text={initial ? this.getInitials(text.trim()) : text}
         style={{
           color: `${textColor}`,
           backgroundImage: `url(${image})`,
@@ -38,7 +50,10 @@ export default class ExampleComponent extends Component {
           height: `${height}`,
           borderRadius: `${radius}`,
           fontSize: `${fontSize}`,
-          border: `${border}`
+          border: `${border}`,
+          backgroundPosition: `${position}`,
+          backgroundSize: `${size}`,
+          fontWeight: `${weight}`
         }}
       />
     )
